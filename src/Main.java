@@ -47,5 +47,13 @@ public class Main {
             //задание 7
         var remainderMasses = boxer2 % boxer1;
         System.out.println(remainderMasses);
+            //задание 8
+        var totalHours = 640;
+        var timePerEmployee = 8;
+        var totalEmployees = totalHours / timePerEmployee;
+        System.out.println("Всего работников в компании — " + totalEmployees +" человек");
+        var moreEmployees = totalEmployees + 94;
+        var timeLargeEmployees = moreEmployees * timePerEmployee;
+        System.out.println("Если в компании работает " + moreEmployees + " человек, то всего " + timeLargeEmployees + " часов работы может быть поделено между сотрудниками." );
     }
 }

@@ -14,5 +14,13 @@ public class Main {
         System.out.println(dog1);
         System.out.println(cat1);
         System.out.println(paper1);
+            // задание 3
+        var dog2 = dog1 - 3.5;
+        var cat2 = cat1 - 1.6;
+        var paper2 = paper1 - 7639;
+        System.out.println(dog2);
+        System.out.println(cat2);
+        System.out.println(paper2);
+
     }
 }

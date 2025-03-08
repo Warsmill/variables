@@ -44,5 +44,8 @@ public class Main {
         System.out.println(totalMass);
         var massDifference = boxer2 - boxer1;
         System.out.println(massDifference);
+            //задание 7
+        var remainderMasses = boxer2 % boxer1;
+        System.out.println(remainderMasses);
     }
 }
